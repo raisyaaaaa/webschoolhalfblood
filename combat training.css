@@ -1,0 +1,106 @@
+header{text-align: center;
+    align-items: center;
+    padding: 0.5cm;
+    margin: 0;
+    height: 100px;
+    background-color:antiquewhite;
+    font-size: xx-large;
+    color: #9a1313;
+    font-family: 'Caesar Dressing'}
+    
+    body{font-family: 'Franklin Gothic Medium';
+    background-image: url(bgfoto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Georgia
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color:#dca52f;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #9a1313;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      .desc-combat{
+        background-color: #dca52f;
+        color: #f1f1f1;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        width: 600px;
+        font-family: 'Courier New';
+        font-weight: bold;
+        padding: 20px;
+        float: left;
+      }
+
+      .combat img{
+        padding-left: 25px;
+        width:450px;
+        height:450px;
+      }
+
+      .combat{padding: 30px;
+    margin-bottom: 50px;}
+
+      .main{color: #9a1313;}
+
+.combat h1{font-family: 'Caesar Dressing';
+color: #9a1313;}
+
+footer{background-color: antiquewhite;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    }
+    
+    footer h2{
+      color:#9a1313;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+    
+    .footer-tag p{
+      margin: 10px 0;
+    }
+    
+    .end {display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-right: -600px;}

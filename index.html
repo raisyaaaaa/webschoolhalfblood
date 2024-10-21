@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>School For Demi Gods</title>
+    <link rel="stylesheet" type="text/css" href="proyek akhir css.css">
+    <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+</head>
+
+<header> 
+    <div class="logo">
+        <img src="image.png" width="115px" height="115px">
+    </div>
+    <div class="judul">
+        <h1 >SCHOOL HALF-BLOOD</h1>
+    </div>
+   
+</header>
+
+<body>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">About</a>
+        <a href="profile.html">profile</a>
+        <a href="houses.html">Houses</a>
+       
+        <a href="activities.html">Activities</a>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer;color: brown;" onclick="openNav()">&#9776; Click</span>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+    <marquee direction="left" loop="infinite" style="font-size: larger; color: darkblue; font-family: 'Courier New'; font-weight: bold;"><a>Welcome to school for demi gods, where we will train you and you will learn the truth of what being a demi god actually is.</a></marquee>
+
+    <br>
+    
+    <main>
+
+            <div class="slideshow-container">
+
+                <div class="main_text">
+                    <h1 > Introduction About<br>School for Half-Blood</h1>
+                </div>
+                
+                <div>
+                <img class="slides active" src="slideshowA.jfif" style="animation: fade 1s;">
+                <img class="slides" src="slideshowB.jfif" style="animation: fade 1s;">
+                <img class="slides" src="slideshowC.jfif" style="animation: fade 1s;">
+                <img class="slides" src="slideshowD.jfif" style="animation: fade 1s;">
+                <img class="slides" src="slideshowF.jfif" style="animation: fade 1s;">
+                </div>
+            </div>
+                
+                <p style="text-align:justify;" class="konten1">School Half-Blood is a place of training and protection for demigod children. These children are the descendants of ordinary humans who have one god or goddess as a parent. Because of the divine blood that flows within them, demigods are often the targets of monsters and threats to the mystical world. The School Half-Blood provides safe haven from these dangers, as it is surrounded by a magical barrier that only certain creatures can penetrate.
+
+                In addition to daily training, the demigods at the School Half-Blood are often sent on dangerous missions to complete tasks ordered by the gods or to fight major threats that threaten the world. The School For Half Blood becomes a kind of second home for them, a place where they can learn more about their true selves, make friends with fellow demigods, and face their destiny as descendants of gods.</p>
+                
+
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+    
+            function showSlides() {
+                let slides = document.getElementsByClassName("slides");
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex - 1].style.display = "block";  
+                setTimeout(showSlides, 2000); 
+            }
+        </script>
+
+
+    </main>
+
+    <!--review-->
+    <div class="review">
+        <h1>Alumni's Review</h1>
+
+        <div class="review-box">
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="walker scobell _ percy jackson.jfif">
+                </div>
+
+                <div class="review-text">
+                    <h2 class="name">Percy Jackson</h2>
+                </div>
+
+                <p>
+                    As a demigod, Camp Half-Blood is truly a sanctuary! The environment is welcoming, and the activities are thrilling. From archery to capture the flag, there's never a dull moment. The cabins are cozy, and the food is delicious (thank you, Hermes!). I've made lifelong friends here, and the counselors genuinely care about our growth and safety. Plus, the lore and history surrounding the camp make it feel like a magical place. Highly recommend to any demigod seeking adventure!
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="Clarisse La Rue.jfif">
+                </div>
+
+                <div class="review-text">
+                    <h2 class="name">Clarise La Rue</h2>
+                </div>
+
+                <p>
+                    As a parent of a young demigod, I can’t express how relieved I am to have found Camp Half-Blood. The camp provides a safe haven for my child to hone their skills and connect with others like them. The counselors are knowledgeable and attentive, ensuring that everyone feels included. I appreciate the emphasis on teamwork and self-discovery.My only concern is the occasional monster attack, but I suppose that's part of the charm! Overall, it’s a fantastic experience for any demigod.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="download (10).jfif">
+                </div>
+
+                <div class="review-text">
+                    <h2 class="name">Annabeth</h2>
+                </div>
+
+                <p>
+                    Camp Half-Blood has become my second home! The sense of belonging here is unmatched. The camp offers so many engaging activities, from archery to magical creature care. The cabins are cozy, and each one has its own unique vibe. I love the campfire stories and the way we all come together for meals. The staff truly cares about our growth and safety, which makes all the difference. I leave each summer feeling empowered and inspired!
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="luke castellan unfiltered icons_.jfif">
+                </div>
+
+                <div class="review-text">
+                    <h2 class="name">Luke Castellan</h2>
+                </div>
+
+                <p>
+                    My time at Camp Half-Blood has been life-changing! Not only have I improved my combat skills and learned to wield a sword, but I've also discovered a deeper connection to my divine parent. The camp is filled with rich history, and the lore we explore is fascinating. I’ve made amazing friends who understand my struggles, and we’ve tackled challenges together that have built our confidence. Every day is filled with fun and learning, and I can’t wait to return next summer!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <figure class="info-container">
+        <h2 class="text-info">More Info's</h2>
+            <div class="info">
+                <a href="ceberus.html">
+                    <img src="mythologyworldwide.com-Cerberus-Guardian-of-the-Underworld-A-Journey-Through-Ancient-Greek-Mythology.webp" width="200px" height="200px">
+                    <figcaption class="info-name">ceberus</figcaption>
+                </a>
+            </div>
+            
+            <div class="info">
+                <a href="minotaur.html">
+                    <img src="Minotaur.jfif" widht="250px" height="200px">
+                </a>
+                <figcaption class="info-name">Minotaur</figcaption>
+            </div>
+
+            <div class="info">
+                <a href="medusa.html">
+                    <img src="medusa_image_109.jpg" width="200px" height="200px">
+                </a>
+                <figcaption class="info-name">medusa</figcaption>
+            </div>
+
+    </figure>
+
+
+
+<footer>
+    <div class="footer-tag">
+        <h2>Contact</h2>
+        <p>0821-1762-9053</p>
+        <p>Raisya Almira</p>
+        <p>schoolhalfblood@gmail.com</p>
+
+    </div>
+
+    <div class="footer-tag">
+        <h2>Location</h2>
+        <p>New york</p>
+    </div>
+<div class="end">
+    &copy;IT SCHOOL HALF BLOOD
+</div>
+</footer>
+    
+</body>
+</html>
